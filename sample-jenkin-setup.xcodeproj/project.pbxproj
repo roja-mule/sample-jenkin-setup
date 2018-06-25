@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44D1BE3A20E0FDE40005E9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1BE3920E0FDE40005E9C2 /* AppDelegate.swift */; };
+		44D1BE3C20E0FDE40005E9C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1BE3B20E0FDE40005E9C2 /* ViewController.swift */; };
+		44D1BE3F20E0FDE40005E9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D1BE3D20E0FDE40005E9C2 /* Main.storyboard */; };
+		44D1BE4120E0FDE40005E9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D1BE4020E0FDE40005E9C2 /* Assets.xcassets */; };
+		44D1BE4420E0FDE40005E9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D1BE4220E0FDE40005E9C2 /* LaunchScreen.storyboard */; };
+		44D1BE4F20E0FDE50005E9C2 /* sample_jenkin_setupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1BE4E20E0FDE50005E9C2 /* sample_jenkin_setupTests.swift */; };
+		44D1BE5A20E0FDE50005E9C2 /* sample_jenkin_setupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1BE5920E0FDE50005E9C2 /* sample_jenkin_setupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44D1BE4B20E0FDE50005E9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D1BE2E20E0FDE40005E9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D1BE3520E0FDE40005E9C2;
+			remoteInfo = "sample-jenkin-setup";
+		};
+		44D1BE5620E0FDE50005E9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D1BE2E20E0FDE40005E9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D1BE3520E0FDE40005E9C2;
+			remoteInfo = "sample-jenkin-setup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44D1BE3620E0FDE40005E9C2 /* sample-jenkin-setup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-jenkin-setup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D1BE3920E0FDE40005E9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44D1BE3B20E0FDE40005E9C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44D1BE3E20E0FDE40005E9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44D1BE4020E0FDE40005E9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D1BE4320E0FDE40005E9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44D1BE4520E0FDE40005E9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D1BE4A20E0FDE50005E9C2 /* sample-jenkin-setupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-jenkin-setupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D1BE4E20E0FDE50005E9C2 /* sample_jenkin_setupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_jenkin_setupTests.swift; sourceTree = "<group>"; };
+		44D1BE5020E0FDE50005E9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D1BE5520E0FDE50005E9C2 /* sample-jenkin-setupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-jenkin-setupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D1BE5920E0FDE50005E9C2 /* sample_jenkin_setupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_jenkin_setupUITests.swift; sourceTree = "<group>"; };
+		44D1BE5B20E0FDE50005E9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D1BE3320E0FDE40005E9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D1BE4720E0FDE50005E9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D1BE5220E0FDE50005E9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D1BE2D20E0FDE40005E9C2 = {
+			isa = PBXGroup;
+			children = (
+				44D1BE3820E0FDE40005E9C2 /* sample-jenkin-setup */,
+				44D1BE4D20E0FDE50005E9C2 /* sample-jenkin-setupTests */,
+				44D1BE5820E0FDE50005E9C2 /* sample-jenkin-setupUITests */,
+				44D1BE3720E0FDE40005E9C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44D1BE3720E0FDE40005E9C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D1BE3620E0FDE40005E9C2 /* sample-jenkin-setup.app */,
+				44D1BE4A20E0FDE50005E9C2 /* sample-jenkin-setupTests.xctest */,
+				44D1BE5520E0FDE50005E9C2 /* sample-jenkin-setupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D1BE3820E0FDE40005E9C2 /* sample-jenkin-setup */ = {
+			isa = PBXGroup;
+			children = (
+				44D1BE3920E0FDE40005E9C2 /* AppDelegate.swift */,
+				44D1BE3B20E0FDE40005E9C2 /* ViewController.swift */,
+				44D1BE3D20E0FDE40005E9C2 /* Main.storyboard */,
+				44D1BE4020E0FDE40005E9C2 /* Assets.xcassets */,
+				44D1BE4220E0FDE40005E9C2 /* LaunchScreen.storyboard */,
+				44D1BE4520E0FDE40005E9C2 /* Info.plist */,
+			);
+			path = "sample-jenkin-setup";
+			sourceTree = "<group>";
+		};
+		44D1BE4D20E0FDE50005E9C2 /* sample-jenkin-setupTests */ = {
+			isa = PBXGroup;
+			children = (
+				44D1BE4E20E0FDE50005E9C2 /* sample_jenkin_setupTests.swift */,
+				44D1BE5020E0FDE50005E9C2 /* Info.plist */,
+			);
+			path = "sample-jenkin-setupTests";
+			sourceTree = "<group>";
+		};
+		44D1BE5820E0FDE50005E9C2 /* sample-jenkin-setupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44D1BE5920E0FDE50005E9C2 /* sample_jenkin_setupUITests.swift */,
+				44D1BE5B20E0FDE50005E9C2 /* Info.plist */,
+			);
+			path = "sample-jenkin-setupUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44D1BE3520E0FDE40005E9C2 /* sample-jenkin-setup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D1BE5E20E0FDE50005E9C2 /* Build configuration list for PBXNativeTarget "sample-jenkin-setup" */;
+			buildPhases = (
+				44D1BE3220E0FDE40005E9C2 /* Sources */,
+				44D1BE3320E0FDE40005E9C2 /* Frameworks */,
+				44D1BE3420E0FDE40005E9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-jenkin-setup";
+			productName = "sample-jenkin-setup";
+			productReference = 44D1BE3620E0FDE40005E9C2 /* sample-jenkin-setup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44D1BE4920E0FDE50005E9C2 /* sample-jenkin-setupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D1BE6120E0FDE50005E9C2 /* Build configuration list for PBXNativeTarget "sample-jenkin-setupTests" */;
+			buildPhases = (
+				44D1BE4620E0FDE50005E9C2 /* Sources */,
+				44D1BE4720E0FDE50005E9C2 /* Frameworks */,
+				44D1BE4820E0FDE50005E9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D1BE4C20E0FDE50005E9C2 /* PBXTargetDependency */,
+			);
+			name = "sample-jenkin-setupTests";
+			productName = "sample-jenkin-setupTests";
+			productReference = 44D1BE4A20E0FDE50005E9C2 /* sample-jenkin-setupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44D1BE5420E0FDE50005E9C2 /* sample-jenkin-setupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D1BE6420E0FDE50005E9C2 /* Build configuration list for PBXNativeTarget "sample-jenkin-setupUITests" */;
+			buildPhases = (
+				44D1BE5120E0FDE50005E9C2 /* Sources */,
+				44D1BE5220E0FDE50005E9C2 /* Frameworks */,
+				44D1BE5320E0FDE50005E9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D1BE5720E0FDE50005E9C2 /* PBXTargetDependency */,
+			);
+			name = "sample-jenkin-setupUITests";
+			productName = "sample-jenkin-setupUITests";
+			productReference = 44D1BE5520E0FDE50005E9C2 /* sample-jenkin-setupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44D1BE2E20E0FDE40005E9C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Roja Mule";
+				TargetAttributes = {
+					44D1BE3520E0FDE40005E9C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					44D1BE4920E0FDE50005E9C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44D1BE3520E0FDE40005E9C2;
+					};
+					44D1BE5420E0FDE50005E9C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44D1BE3520E0FDE40005E9C2;
+					};
+				};
+			};
+			buildConfigurationList = 44D1BE3120E0FDE40005E9C2 /* Build configuration list for PBXProject "sample-jenkin-setup" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44D1BE2D20E0FDE40005E9C2;
+			productRefGroup = 44D1BE3720E0FDE40005E9C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44D1BE3520E0FDE40005E9C2 /* sample-jenkin-setup */,
+				44D1BE4920E0FDE50005E9C2 /* sample-jenkin-setupTests */,
+				44D1BE5420E0FDE50005E9C2 /* sample-jenkin-setupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D1BE3420E0FDE40005E9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1BE4420E0FDE40005E9C2 /* LaunchScreen.storyboard in Resources */,
+				44D1BE4120E0FDE40005E9C2 /* Assets.xcassets in Resources */,
+				44D1BE3F20E0FDE40005E9C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D1BE4820E0FDE50005E9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D1BE5320E0FDE50005E9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D1BE3220E0FDE40005E9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1BE3C20E0FDE40005E9C2 /* ViewController.swift in Sources */,
+				44D1BE3A20E0FDE40005E9C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D1BE4620E0FDE50005E9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1BE4F20E0FDE50005E9C2 /* sample_jenkin_setupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D1BE5120E0FDE50005E9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1BE5A20E0FDE50005E9C2 /* sample_jenkin_setupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44D1BE4C20E0FDE50005E9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D1BE3520E0FDE40005E9C2 /* sample-jenkin-setup */;
+			targetProxy = 44D1BE4B20E0FDE50005E9C2 /* PBXContainerItemProxy */;
+		};
+		44D1BE5720E0FDE50005E9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D1BE3520E0FDE40005E9C2 /* sample-jenkin-setup */;
+			targetProxy = 44D1BE5620E0FDE50005E9C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44D1BE3D20E0FDE40005E9C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D1BE3E20E0FDE40005E9C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44D1BE4220E0FDE40005E9C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D1BE4320E0FDE40005E9C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44D1BE5C20E0FDE50005E9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44D1BE5D20E0FDE50005E9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D1BE5F20E0FDE50005E9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "sample-jenkin-setup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ggktech.sample-jenkin-setup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44D1BE6020E0FDE50005E9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "sample-jenkin-setup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ggktech.sample-jenkin-setup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44D1BE6220E0FDE50005E9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "sample-jenkin-setupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ggktech.sample-jenkin-setupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-jenkin-setup.app/sample-jenkin-setup";
+			};
+			name = Debug;
+		};
+		44D1BE6320E0FDE50005E9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "sample-jenkin-setupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ggktech.sample-jenkin-setupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-jenkin-setup.app/sample-jenkin-setup";
+			};
+			name = Release;
+		};
+		44D1BE6520E0FDE50005E9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "sample-jenkin-setupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ggktech.sample-jenkin-setupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sample-jenkin-setup";
+			};
+			name = Debug;
+		};
+		44D1BE6620E0FDE50005E9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "sample-jenkin-setupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ggktech.sample-jenkin-setupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sample-jenkin-setup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D1BE3120E0FDE40005E9C2 /* Build configuration list for PBXProject "sample-jenkin-setup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D1BE5C20E0FDE50005E9C2 /* Debug */,
+				44D1BE5D20E0FDE50005E9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D1BE5E20E0FDE50005E9C2 /* Build configuration list for PBXNativeTarget "sample-jenkin-setup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D1BE5F20E0FDE50005E9C2 /* Debug */,
+				44D1BE6020E0FDE50005E9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D1BE6120E0FDE50005E9C2 /* Build configuration list for PBXNativeTarget "sample-jenkin-setupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D1BE6220E0FDE50005E9C2 /* Debug */,
+				44D1BE6320E0FDE50005E9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D1BE6420E0FDE50005E9C2 /* Build configuration list for PBXNativeTarget "sample-jenkin-setupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D1BE6520E0FDE50005E9C2 /* Debug */,
+				44D1BE6620E0FDE50005E9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44D1BE2E20E0FDE40005E9C2 /* Project object */;
+}
